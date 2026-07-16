@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pinjamanbpkbcepat.com/sitemap.xml
