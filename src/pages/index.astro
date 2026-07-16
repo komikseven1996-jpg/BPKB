@@ -1,11 +1,12 @@
 ---
-const siteTitle = "Pinjaman Dana Cepat Jaminan BPKB Motor & Mobil | Cair Hari Ini";
-const siteDescription = "Ajukan pinjaman dana cepat dengan jaminan BPKB motor dan mobil. Proses mudah, bunga ringan, dan pencairan cepat via WhatsApp.";
-const siteKeywords = "pinjaman jaminan bpkb, gadai bpkb motor, gadai bpkb mobil, pinjaman dana tunai bpkb, pinjaman bpkb cepat cair, jaminan bpkb tanpa ribet, dana tunai jaminan bpkb, pinjaman bpkb bunga rendah, gadai bpkb terdekat, pinjaman jaminan kendaraan, kredit dana bpkb, pinjaman bpkb online, dana cepat cair bpkb, pinjaman bpkb legal, gadai bpkb resmi";
+const siteTitle = "Pinjaman Dana Cepat Jaminan BPKB Motor & Mobil | Cair Hari Ini | Pinjaman BPKB Cepat";
+const siteDescription = "Ajukan pinjaman dana cepat jaminan BPKB motor & mobil. Proses mudah, bunga ringan 0.5%/bulan, pencairan cepat hari ini. Legal, resmi, tanpa survey rumah. Hubungi WA 0812-6914-6446.";
+const siteKeywords = "pinjaman jaminan bpkb, gadai bpkb motor, gadai bpkb mobil, pinjaman dana tunai bpkb, pinjaman bpkb cepat cair, jaminan bpkb tanpa ribet, dana tunai jaminan bpkb, pinjaman bpkb bunga rendah, gadai bpkb terdekat, pinjaman jaminan kendaraan, kredit dana bpkb, pinjaman bpkb online, dana cepat cair bpkb, pinjaman bpkb legal, gadai bpkb resmi, pinjaman bpkb jakarta, gadai bpkb bandung, pinjaman bpkb surabaya, gadai bpkb medan, ajukan pinjaman bpkb, simulasi pinjaman bpkb, pinjaman bpkb syariah, gadai bpkb online, dana cepat cair hari ini, pinjaman bpkb modal usaha, gadai bpkb honda beat, gadai bpkb vario, gadai bpkb nmax, gadai bpkb aerox, gadai bpkb avanza, gadai bpkb xenia, gadai bpkb brio, gadai bpkb sigra, pinjaman bpkb tanpa survey, gadai bpkb cepat cair 1 jam, pinjaman bpkb bunga 0.5%, pinjaman bpkb cepat cair, pinjaman bpkb bunga rendah, pinjaman jaminan bpkb mobil, pinjaman jaminan bpkb motor, dana tunai bpkb mobil, dana tunai bpkb motor, leasing mobil, leasing motor, kredit multiguna, pinjaman cepat jaminan bpkb, pinjaman bpkb cair cepat, pinjaman multiguna jaminan bpkb, leasing bpkb mobil, leasing bpkb motor, kredit jaminan bpkb, gadai bpkb, pinjaman mobil jaminan bpkb, pinjaman motor jaminan bpkb, dana tunai jaminan bpkb, adira finance, bfi finance, wom finance, fifgroup, federal international finance, astra credit companies, acc, mandiri tunas finance, mtf, oto finance, sms finance, mega finance, mnc finance, clipan finance, bca finance, maybank finance, indomobil finance, toyota astra financial services, taf, suzuki finance, sinarmas multifinance, bussan auto finance, baf, mandiri utama finance, muf, radana finance, buana finance, surya artha nusantara finance, sanf, trust finance indonesia, batavia prosperindo finance, bpf, verena multi finance, kredit plus, kredit plus finance, home credit indonesia, aeon credit service indonesia, pinjaman bpkb adira, pinjaman bpkb bfi, pinjaman bpkb wom finance, pinjaman bpkb fif, pinjaman bpkb acc, pinjaman bpkb bca finance, pinjaman bpkb mandiri tunas finance, pinjaman bpkb oto finance, pinjaman bpkb baf, pinjaman bpkb mega finance, pinjaman bpkb kredit plus, pinjaman bpkb mobil, pinjaman bpkb motor, gadai bpkb mobil, gadai bpkb motor, pinjaman dana tunai jaminan bpkb, pinjaman multiguna jaminan bpkb, leasing bpkb mobil, leasing bpkb motor, dana tunai jaminan bpkb, kredit jaminan bpkb, pinjaman jaminan bpkb, gadai bpkb, pinjaman mobil jaminan bpkb, pinjaman motor jaminan bpkb, dana tunai bpkb mobil, dana tunai bpkb motor, leasing mobil, leasing motor, kredit multiguna, pinjaman cepat jaminan bpkb, pinjaman bpkb cair cepat, pinjaman bpkb bunga rendah, pinjaman jaminan bpkb mobil, pinjaman jaminan bpkb motor";
 const siteUrl = "https://pinjamanbpkbcepat.com/";
 const waNumber = "6281269146446";
 const waMessage = encodeURIComponent("Halo, saya tertarik mengajukan pinjaman dengan jaminan BPKB.");
 const waLink = `https://wa.me/${waNumber}?text=${waMessage}`;
+const gscVerificationCode = "YOUR_GSC_VERIFICATION_CODE"; // Ganti dengan kode verifikasi GSC dari Google Search Console
 ---
 <!DOCTYPE html>
 <html lang="id">
@@ -17,8 +18,20 @@ const waLink = `https://wa.me/${waNumber}?text=${waMessage}`;
   <meta name="description" content={siteDescription} />
   <meta name="keywords" content={siteKeywords} />
   <meta name="author" content="Pinjaman BPKB Cepat" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <link rel="canonical" href={siteUrl} />
+
+  <!-- Google Search Console Verification -->
+  <meta name="google-site-verification" content={gscVerificationCode} />
+
+  <!-- Additional SEO Meta Tags -->
+  <meta name="geo.placename" content="Indonesia" />
+  <meta name="geo.region" content="ID" />
+  <meta name="geo.country" content="ID" />
+  <meta name="language" content="Indonesian" />
+  <meta name="distribution" content="Global" />
+  <meta name="rating" content="General" />
+  <meta name="revisit-after" content="7 days" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -34,10 +47,6 @@ const waLink = `https://wa.me/${waNumber}?text=${waMessage}`;
   <meta name="twitter:title" content={siteTitle} />
   <meta name="twitter:description" content={siteDescription} />
   <meta name="twitter:image" content={`${siteUrl}og-image.jpg`} />
-
-  <!-- Geo/local SEO -->
-  <meta name="geo.placename" content="Indonesia" />
-  <meta name="geo.region" content="ID" />
 
   <!-- Preconnect fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
